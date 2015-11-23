@@ -15,16 +15,16 @@
 		F187E51E1C00CEFE0052CD96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F187E51C1C00CEFE0052CD96 /* LaunchScreen.storyboard */; };
 		F187E5291C00CEFE0052CD96 /* synergy_on_armTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F187E5281C00CEFE0052CD96 /* synergy_on_armTests.m */; };
 		F187E5341C00CEFE0052CD96 /* synergy_on_armUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F187E5331C00CEFE0052CD96 /* synergy_on_armUITests.m */; };
-		F187E5491C00D09B0052CD96 /* libarch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F187E5411C00D09B0052CD96 /* libarch.a */; };
-		F187E54A1C00D09B0052CD96 /* libbase.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F187E5421C00D09B0052CD96 /* libbase.a */; };
-		F187E54B1C00D09B0052CD96 /* libcommon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F187E5431C00D09B0052CD96 /* libcommon.a */; };
-		F187E54C1C00D09B0052CD96 /* libio.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F187E5441C00D09B0052CD96 /* libio.a */; };
-		F187E54D1C00D09B0052CD96 /* libmt.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F187E5451C00D09B0052CD96 /* libmt.a */; };
-		F187E54E1C00D09B0052CD96 /* libnet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F187E5461C00D09B0052CD96 /* libnet.a */; };
-		F187E54F1C00D09B0052CD96 /* libserver.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F187E5471C00D09B0052CD96 /* libserver.a */; };
-		F187E5501C00D09B0052CD96 /* libsynergy.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F187E5481C00D09B0052CD96 /* libsynergy.a */; };
 		F187E5521C00FE020052CD96 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F187E5511C00FE020052CD96 /* UIKit.framework */; };
-		F187E5541C0105B70052CD96 /* libipc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F187E5531C0105B70052CD96 /* libipc.a */; };
+		F1E53B681C03D4FD00577D1F /* libarch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F1E53B5F1C03D4FD00577D1F /* libarch.a */; };
+		F1E53B691C03D4FD00577D1F /* libbase.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F1E53B601C03D4FD00577D1F /* libbase.a */; };
+		F1E53B6A1C03D4FD00577D1F /* libcommon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F1E53B611C03D4FD00577D1F /* libcommon.a */; };
+		F1E53B6B1C03D4FD00577D1F /* libio.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F1E53B621C03D4FD00577D1F /* libio.a */; };
+		F1E53B6C1C03D4FD00577D1F /* libipc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F1E53B631C03D4FD00577D1F /* libipc.a */; };
+		F1E53B6D1C03D4FD00577D1F /* libmt.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F1E53B641C03D4FD00577D1F /* libmt.a */; };
+		F1E53B6E1C03D4FD00577D1F /* libnet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F1E53B651C03D4FD00577D1F /* libnet.a */; };
+		F1E53B6F1C03D4FD00577D1F /* libserver.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F1E53B661C03D4FD00577D1F /* libserver.a */; };
+		F1E53B701C03D4FD00577D1F /* libsynergy.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F1E53B671C03D4FD00577D1F /* libsynergy.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,16 +61,16 @@
 		F187E52F1C00CEFE0052CD96 /* synergy_on_armUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = synergy_on_armUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F187E5331C00CEFE0052CD96 /* synergy_on_armUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = synergy_on_armUITests.m; sourceTree = "<group>"; };
 		F187E5351C00CEFE0052CD96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F187E5411C00D09B0052CD96 /* libarch.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libarch.a; path = ../../synergy/lib/libarch.a; sourceTree = "<group>"; };
-		F187E5421C00D09B0052CD96 /* libbase.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libbase.a; path = ../../synergy/lib/libbase.a; sourceTree = "<group>"; };
-		F187E5431C00D09B0052CD96 /* libcommon.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcommon.a; path = ../../synergy/lib/libcommon.a; sourceTree = "<group>"; };
-		F187E5441C00D09B0052CD96 /* libio.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libio.a; path = ../../synergy/lib/libio.a; sourceTree = "<group>"; };
-		F187E5451C00D09B0052CD96 /* libmt.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libmt.a; path = ../../synergy/lib/libmt.a; sourceTree = "<group>"; };
-		F187E5461C00D09B0052CD96 /* libnet.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libnet.a; path = ../../synergy/lib/libnet.a; sourceTree = "<group>"; };
-		F187E5471C00D09B0052CD96 /* libserver.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libserver.a; path = ../../synergy/lib/libserver.a; sourceTree = "<group>"; };
-		F187E5481C00D09B0052CD96 /* libsynergy.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libsynergy.a; path = ../../synergy/lib/libsynergy.a; sourceTree = "<group>"; };
 		F187E5511C00FE020052CD96 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		F187E5531C0105B70052CD96 /* libipc.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libipc.a; path = ../../synergy/lib/libipc.a; sourceTree = "<group>"; };
+		F1E53B5F1C03D4FD00577D1F /* libarch.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libarch.a; path = ../synergy/lib/libarch.a; sourceTree = "<group>"; };
+		F1E53B601C03D4FD00577D1F /* libbase.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libbase.a; path = ../synergy/lib/libbase.a; sourceTree = "<group>"; };
+		F1E53B611C03D4FD00577D1F /* libcommon.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcommon.a; path = ../synergy/lib/libcommon.a; sourceTree = "<group>"; };
+		F1E53B621C03D4FD00577D1F /* libio.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libio.a; path = ../synergy/lib/libio.a; sourceTree = "<group>"; };
+		F1E53B631C03D4FD00577D1F /* libipc.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libipc.a; path = ../synergy/lib/libipc.a; sourceTree = "<group>"; };
+		F1E53B641C03D4FD00577D1F /* libmt.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libmt.a; path = ../synergy/lib/libmt.a; sourceTree = "<group>"; };
+		F1E53B651C03D4FD00577D1F /* libnet.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libnet.a; path = ../synergy/lib/libnet.a; sourceTree = "<group>"; };
+		F1E53B661C03D4FD00577D1F /* libserver.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libserver.a; path = ../synergy/lib/libserver.a; sourceTree = "<group>"; };
+		F1E53B671C03D4FD00577D1F /* libsynergy.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libsynergy.a; path = ../synergy/lib/libsynergy.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,16 +78,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F187E5541C0105B70052CD96 /* libipc.a in Frameworks */,
+				F1E53B681C03D4FD00577D1F /* libarch.a in Frameworks */,
+				F1E53B691C03D4FD00577D1F /* libbase.a in Frameworks */,
+				F1E53B6A1C03D4FD00577D1F /* libcommon.a in Frameworks */,
+				F1E53B6B1C03D4FD00577D1F /* libio.a in Frameworks */,
+				F1E53B6C1C03D4FD00577D1F /* libipc.a in Frameworks */,
+				F1E53B6D1C03D4FD00577D1F /* libmt.a in Frameworks */,
+				F1E53B6E1C03D4FD00577D1F /* libnet.a in Frameworks */,
+				F1E53B6F1C03D4FD00577D1F /* libserver.a in Frameworks */,
+				F1E53B701C03D4FD00577D1F /* libsynergy.a in Frameworks */,
 				F187E5521C00FE020052CD96 /* UIKit.framework in Frameworks */,
-				F187E5491C00D09B0052CD96 /* libarch.a in Frameworks */,
-				F187E54A1C00D09B0052CD96 /* libbase.a in Frameworks */,
-				F187E54B1C00D09B0052CD96 /* libcommon.a in Frameworks */,
-				F187E54C1C00D09B0052CD96 /* libio.a in Frameworks */,
-				F187E54D1C00D09B0052CD96 /* libmt.a in Frameworks */,
-				F187E54E1C00D09B0052CD96 /* libnet.a in Frameworks */,
-				F187E54F1C00D09B0052CD96 /* libserver.a in Frameworks */,
-				F187E5501C00D09B0052CD96 /* libsynergy.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,16 +111,16 @@
 		F187E5021C00CEFE0052CD96 = {
 			isa = PBXGroup;
 			children = (
-				F187E5531C0105B70052CD96 /* libipc.a */,
+				F1E53B5F1C03D4FD00577D1F /* libarch.a */,
+				F1E53B601C03D4FD00577D1F /* libbase.a */,
+				F1E53B611C03D4FD00577D1F /* libcommon.a */,
+				F1E53B621C03D4FD00577D1F /* libio.a */,
+				F1E53B631C03D4FD00577D1F /* libipc.a */,
+				F1E53B641C03D4FD00577D1F /* libmt.a */,
+				F1E53B651C03D4FD00577D1F /* libnet.a */,
+				F1E53B661C03D4FD00577D1F /* libserver.a */,
+				F1E53B671C03D4FD00577D1F /* libsynergy.a */,
 				F187E5511C00FE020052CD96 /* UIKit.framework */,
-				F187E5411C00D09B0052CD96 /* libarch.a */,
-				F187E5421C00D09B0052CD96 /* libbase.a */,
-				F187E5431C00D09B0052CD96 /* libcommon.a */,
-				F187E5441C00D09B0052CD96 /* libio.a */,
-				F187E5451C00D09B0052CD96 /* libmt.a */,
-				F187E5461C00D09B0052CD96 /* libnet.a */,
-				F187E5471C00D09B0052CD96 /* libserver.a */,
-				F187E5481C00D09B0052CD96 /* libsynergy.a */,
 				F187E50D1C00CEFE0052CD96 /* synergy_on_arm */,
 				F187E5271C00CEFE0052CD96 /* synergy_on_armTests */,
 				F187E5321C00CEFE0052CD96 /* synergy_on_armUITests */,
@@ -550,6 +550,7 @@
 				F187E53A1C00CEFE0052CD96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F187E53B1C00CEFE0052CD96 /* Build configuration list for PBXNativeTarget "synergy_on_armTests" */ = {
 			isa = XCConfigurationList;
@@ -558,6 +559,7 @@
 				F187E53D1C00CEFE0052CD96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F187E53E1C00CEFE0052CD96 /* Build configuration list for PBXNativeTarget "synergy_on_armUITests" */ = {
 			isa = XCConfigurationList;
@@ -566,6 +568,7 @@
 				F187E5401C00CEFE0052CD96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
